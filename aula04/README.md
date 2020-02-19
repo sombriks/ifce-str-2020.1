@@ -2,3 +2,5 @@
 
 Noções de thread
 
+- exercício em C
+- exercício em Ada
