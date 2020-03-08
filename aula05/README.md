@@ -2,7 +2,7 @@
 
 - prática de laboratório
 
-## laboratorio 2
+## laboratório 2
 
 Elabore um programa qye crie 3 threads.
 
