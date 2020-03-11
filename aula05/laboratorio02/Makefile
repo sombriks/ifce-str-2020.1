@@ -10,4 +10,4 @@ main: main.adb
 	gnatmake main
 
 clean:
-	rm -rf main main.o main.ali
+	rm -rf main *.o *.ali
