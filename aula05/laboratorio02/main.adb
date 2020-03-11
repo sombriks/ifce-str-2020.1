@@ -30,7 +30,8 @@ procedure main is
       B := Trabalho.Preenche(Arr,I1,9,'a');
       T2.Preenche;
     accept Imprime;
-      B := Trabalho.Imprime(Arr,0,9);
+      I1 := 0;
+      B := Trabalho.Imprime(Arr,I1,9);
       T2.Imprime;
 
   end T1;
@@ -40,7 +41,8 @@ procedure main is
       B := Trabalho.Preenche(Arr,I2,19,'b');
       T3.Preenche;
     accept Imprime;
-      B := Trabalho.Imprime(Arr,10,19);
+      I2 := 10;
+      B := Trabalho.Imprime(Arr,I2,19);
       T3.Imprime;
   end T2;
   task body T3 is
@@ -49,7 +51,8 @@ procedure main is
       B := Trabalho.Preenche(Arr,I3,29,'c');
       T1.Imprime;
     accept Imprime;
-      B := Trabalho.Imprime(Arr,20,29);
+      I3 := 20;
+      B := Trabalho.Imprime(Arr,I3,29);
   end T3;
 begin
   T1.Preenche;
