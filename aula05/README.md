@@ -16,4 +16,4 @@ A thread 'B' deve preencher as posições de 10 a 19 do array.
 
 A thread 'C' deve preencher as posições de 20 a 29 do array.
 
-Em seguida elas rodam novamente para imprimir o array.
+Em seguida elas rodam novamente para imprimir, cada uma, seu offset do array.
